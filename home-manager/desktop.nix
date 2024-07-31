@@ -48,8 +48,8 @@
       exec-once = "fcitx5";
       env = [
         "GTK_IM_MODULE, fcitx"
-	"QT_IM_MODULE, fcitx"
-	"XMODIFIER, @im=fcitx"
+        "QT_IM_MODULE, fcitx"
+        "XMODIFIER, @im=fcitx"
       ];
     };
   };
