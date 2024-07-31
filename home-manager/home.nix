@@ -20,6 +20,7 @@
     ./audio.nix
     ./browser.nix
     ./fonts.nix
+    ./im.nix
   ];
 
   wayland.windowManager.hyprland.settings = {

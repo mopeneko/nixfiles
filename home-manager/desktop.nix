@@ -44,6 +44,13 @@
         "$mainMod, mouse:272, movewindow"
         "$mainMod, mouse:273, movewindow"
       ];
+
+      exec-once = "fcitx5";
+      env = [
+        "GTK_IM_MODULE, fcitx"
+	"QT_IM_MODULE, fcitx"
+	"XMODIFIER, @im=fcitx"
+      ];
     };
   };
 
