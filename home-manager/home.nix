@@ -18,8 +18,8 @@
     ./desktop.nix
     ./terminal.nix
     ./audio.nix
-    ./region.nix
     ./browser.nix
+    ./fonts.nix
   ];
 
   wayland.windowManager.hyprland.settings = {
