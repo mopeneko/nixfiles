@@ -19,6 +19,7 @@
       ./modules/desktop.nix
       ./modules/terminal.nix
       ./modules/audio.nix
+      ./modules/vpn.nix
     ];
 
   # Bootloader.
