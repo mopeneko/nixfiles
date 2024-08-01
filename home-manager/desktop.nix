@@ -107,7 +107,7 @@
 
       exec-once = [
         "fcitx5"
-	"vesktop"
+        "vesktop"
       ];
       env = [
         "XCURSOR_SIZE, 24"
