@@ -16,6 +16,7 @@
       common-pc-ssd
     ])
     ++ [
+      ./modules/secureboot.nix
       ./modules/desktop.nix
       ./modules/terminal.nix
       ./modules/audio.nix

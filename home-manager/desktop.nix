@@ -108,7 +108,7 @@
       exec-once = "fcitx5";
       env = [
         "XCURSOR_SIZE, 24"
-	"HYPRCURSOR_SIZE, 24"
+        "HYPRCURSOR_SIZE, 24"
       ] ++ [
         "GTK_IM_MODULE, fcitx"
         "QT_IM_MODULE, fcitx"
