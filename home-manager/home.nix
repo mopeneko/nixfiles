@@ -19,6 +19,7 @@
     ./terminal.nix
     ./audio.nix
     ./browser.nix
+    ./vscode.nix
     ./im.nix
   ];
 
