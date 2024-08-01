@@ -1,4 +1,9 @@
 { pkgs, ... }: {
+  home.packages = (with pkgs; [
+    nodejs_20
+    corepack_20
+  ]);
+
   programs = {
     git = {
       enable = true;
