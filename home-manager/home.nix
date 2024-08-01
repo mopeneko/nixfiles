@@ -19,7 +19,6 @@
     ./terminal.nix
     ./audio.nix
     ./browser.nix
-    ./fonts.nix
     ./im.nix
   ];
 

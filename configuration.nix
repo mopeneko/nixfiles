@@ -21,6 +21,7 @@
       ./modules/terminal.nix
       ./modules/audio.nix
       ./modules/vpn.nix
+      ./modules/fonts.nix
     ];
 
   # Bootloader.

@@ -3,9 +3,9 @@
   home.packages = (with pkgs; [
     hyprpaper
     pavucontrol
-    grim
-    slurp
+    grimblast
     wl-clipboard
+    vesktop
   ]);
 
   wayland.windowManager.hyprland = {
@@ -95,7 +95,7 @@
         "$mainMod, mouse_down, workspace, e+1"
         "$mainMod, mouse_up, workspace, e-1"
 
-        '', Print, exec, grim -h "$(slurp -d)" - | wl-copy''
+        ", Print, exec, grimblast copy area"
 
         ", XF86AudioPlay, exec, playerctl play-pause"
       ];
@@ -105,7 +105,10 @@
         "$mainMod, mouse:273, movewindow"
       ];
 
-      exec-once = "fcitx5";
+      exec-once = [
+        "fcitx5"
+	"vesktop"
+      ];
       env = [
         "XCURSOR_SIZE, 24"
         "HYPRCURSOR_SIZE, 24"
