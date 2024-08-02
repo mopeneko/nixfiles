@@ -20,6 +20,7 @@
     ./audio.nix
     ./browser.nix
     ./vscode.nix
+    ./obs-studio.nix
     ./im.nix
   ];
 
